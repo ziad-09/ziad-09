@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3DDC84"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="8" y="8" width="944" height="544" rx="14" fill="#010409" stroke="#30363d" stroke-width="2"/>
+
+  <!-- title bar -->
+  <rect x="8" y="8" width="944" height="48" rx="14" fill="#161b22"/>
+  <rect x="8" y="40" width="944" height="16" fill="#161b22"/>
+  <circle cx="40" cy="32" r="8" fill="#ff5f57"/>
+  <circle cx="66" cy="32" r="8" fill="#febc2e"/>
+  <circle cx="92" cy="32" r="8" fill="#28c840"/>
+  <text x="480" y="38" text-anchor="middle" font-family="monospace" font-size="15" fill="#8b949e">Pegasus Terminal — ziad@pegasus:~</text>
+
+  <!-- terminal content -->
+  <rect x="24" y="68" width="912" height="440" rx="8" fill="url(#bg)"/>
+
+  <!-- welcome banner -->
+  <text x="60" y="110" font-family="monospace" font-size="15" fill="#3DDC84">  ╔══════════════════════════╗</text>
+  <text x="60" y="132" font-family="monospace" font-size="15" fill="#3DDC84">  ║   PEGASUS  TERMINAL      ║</text>
+  <text x="60" y="154" font-family="monospace" font-size="15" fill="#3DDC84">  ╚══════════════════════════╝</text>
+  <text x="60" y="184" font-family="monospace" font-size="14" fill="#8b949e">  Ubuntu container via proot · type </text>
+  <text x="370" y="184" font-family="monospace" font-size="14" fill="#d29922">help</text>
+  <text x="400" y="184" font-family="monospace" font-size="14" fill="#8b949e"> for commands</text>
+
+  <!-- command 1 -->
+  <text x="60" y="224" font-family="monospace" font-size="14" fill="#3DDC84">ziad@pegasus</text>
+  <text x="170" y="224" font-family="monospace" font-size="14" fill="#58a6ff">:~</text>
+  <text x="190" y="224" font-family="monospace" font-size="14" fill="#c9d1d9">$ apt install git python3 nodejs</text>
+  <text x="60" y="248" font-family="monospace" font-size="14" fill="#8b949e">  Reading package lists... Done</text>
+  <text x="60" y="272" font-family="monospace" font-size="14" fill="#3DDC84">  ✓ git 2.39.2  ✓ python3 3.11  ✓ nodejs 18</text>
+
+  <!-- command 2 -->
+  <text x="60" y="308" font-family="monospace" font-size="14" fill="#3DDC84">ziad@pegasus</text>
+  <text x="170" y="308" font-family="monospace" font-size="14" fill="#58a6ff">:~</text>
+  <text x="190" y="308" font-family="monospace" font-size="14" fill="#c9d1d9">$ su -c id</text>
+  <text x="60" y="332" font-family="monospace" font-size="14" fill="#f0883e">  uid=0(root) gid=0(root) groups=0(root)</text>
+
+  <!-- command 3 -->
+  <text x="60" y="368" font-family="monospace" font-size="14" fill="#3DDC84">ziad@pegasus</text>
+  <text x="170" y="368" font-family="monospace" font-size="14" fill="#58a6ff">:~</text>
+  <text x="190" y="368" font-family="monospace" font-size="14" fill="#c9d1d9">$ figlet -f slant "HI"</text>
+
+  <!-- ascii art -->
+  <text x="70" y="400" font-family="monospace" font-size="14" fill="#a5d6ff">   _   _      _ _</text>
+  <text x="70" y="422" font-family="monospace" font-size="14" fill="#a5d6ff">  | | | | ___| | |___</text>
+  <text x="70" y="444" font-family="monospace" font-size="14" fill="#a5d6ff">  | |_| |/ _ \ | / __|</text>
+  <text x="70" y="466" font-family="monospace" font-size="14" fill="#a5d6ff">  |  _  |  __/ | \__ \</text>
+  <text x="70" y="488" font-family="monospace" font-size="14" fill="#a5d6ff">  |_| |_|\___|_|_|___/</text>
+
+  <!-- cursor -->
+  <rect x="60" y="496" width="10" height="18" fill="#3DDC84"/>
+
+  <!-- status bar -->
+  <rect x="24" y="516" width="912" height="28" rx="6" fill="#161b22"/>
+  <text x="44" y="535" font-family="monospace" font-size="12" fill="#3DDC84">● AI</text>
+  <text x="100" y="535" font-family="monospace" font-size="12" fill="#8b949e">● root: off</text>
+  <text x="200" y="535" font-family="monospace" font-size="12" fill="#8b949e">● sandbox: ubuntu</text>
+  <text x="920" y="535" text-anchor="end" font-family="monospace" font-size="12" fill="#8b949e">v1.1</text>
+</svg>
